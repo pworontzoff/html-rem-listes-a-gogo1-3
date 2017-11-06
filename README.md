@@ -1,6 +1,6 @@
 # "Listes à gogo 1/3"
 
-> CSS exercise given at HEPL
+> HTML exercise given at HEPL
 
 * * *
 
