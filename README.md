@@ -16,7 +16,7 @@
 
 ## Listes à gogo 1/3
 
-Vous trouverez dans ce dossier un fichier texte HTML nommée **index.html** ansi que six autres fichiers texte HTML dans le dossier HTML. Ce &laquo;&nbsp;mini-site&nbsp;&laquo; &laquo;&nbsp;Liste à gogo&nbsp;&laquo; est dédié aux listes HTML en les re-situant dans leur contexte et en présentant divers exemples.  
+Vous trouverez dans ce dossier un fichier texte HTML nommée **index.html** ansi que six autres fichiers texte HTML dans le dossier **html**. Ce &laquo;&nbsp;mini-site&nbsp;&raquo; &laquo;&nbsp;Liste à gogo&nbsp;&raquo; est dédié aux listes HTML en les re-situant dans leur contexte et en présentant divers exemples.  
 
 Votre but lors de cette partie 1 sur 3 est de baliser ces 7 fichiers HTML qui permettent d’afficher le contenu dans un navigateur web&nbsp;;
 
@@ -57,7 +57,7 @@ Voici les 7 rendus des différentes pages une fois cette première étape finie.
 
 Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
-1. créer le fichier HTML et y placer les balises de départ qui fournissent un template de base complet, ce qui implique notamment de bien indiquer que le document est en français et aussi&nbsp;:
+1. Remplir les fichier HTML en y plaçant les balises de départ qui fournissent un template de base complet, ce qui implique notamment de bien indiquer que le document est en français et aussi&nbsp;:
 	- au niveau de l'en-tête de chacun de 7 documents, de bien définir les méta-informations grâce aux balises `meta`, `title`et `link` appropriées pour&nbsp;:
 	    * déclarer correctement l’encodage des caractères utilisé (pour ne pas avoir de problème d’affichage des caractères spéciaux et accentués dans le navigateur)&nbsp;;
 	    * renseigner que vous êtes l’auteur du document&nbsp;;
@@ -65,15 +65,22 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 	    * prévoir que, si on recherche votre page sur un moteur de recherche comme Google, le moteur de recherche affiche la description donnée en ligne 6 du fichier texte fourni dans la page qui présente les résultats de recherche&nbsp;;
 	    * prévoir que, si votre page est affichée dans un ancien navigateur IE qui ne reconnaît pas les nouvelles balises HTML5 (comme `nav`, `section`, etc.), ces dernières puissent malgré tout être correctement affichées par le navigateur en question (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous) &nbsp;;
 	    * faire en sorte que le titre du document donné en ligne 4 du fichier texte fourni qui s’affiche dans l’onglet du navigateur&nbsp;;
-	- au niveau du corps de chacun des 7 documents, de découper la page en trois comme ceci :
+	- au niveau du corps de chacun des 7 documents, de découper la page en trois comme ceci&nbsp;:
 	 	 * le tritre principal (balise `h1`)&nbsp;;
 	 	 * le contenu principal (balise `main`)&nbsp;;
 	 	 * 2 paragraphes (balises `p`) pour les 2 dernières phrases&nbsp;;
 	 	 * NB : une meilleure découpe sera effectuée lors de la partie 3
+	- bien prendre soin d'utiliser les entités suivantes à bon escient&nbsp;:
+		 * `&nbsp;`
+		 * `&laquo;`
+ 		 * `&raquo;`
+		 * `&hellip;`
+		 * `&amp;`
+
     
 2. baliser le texte en utilisant les balises HTML correctes&nbsp;;
 
-3. faire en sorte que le lien fourni en dernière ligne de chacun des 7 document soit cliquable et mène vers l'url en question. N'oubliez pas le(s) attribut(s) utile(s)
+3. faire en sorte que le lien fourni en dernière ligne de chacun des 7 document soit cliquable et mène vers l'url en question. N'oubliez pas le(s) attribut(s) utile(s).
 
 ### 2. Aides
 
@@ -127,3 +134,7 @@ Il vous suffit de changer la langue du document (de `en` en `fr`), de remplacer 
 > Ces ressources sont à consulter impérativement, elles font partie de la matière de cours
 
 - [The HTML5 Shiv](https://github.com/afarkas/html5shiv). Aidez-vous de cette ressource pour télécharger les fichiers nécessaires et installer HTML5 Shiv, qui permet aux anciens navigateurs d’utiliser les nouvelles balises HTML5. N.B. Utilisez la procédure d’installation manuelle.
+
+* * *
+
+Bon travail !
