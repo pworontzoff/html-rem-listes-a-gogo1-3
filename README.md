@@ -98,7 +98,7 @@ Une petite aide, voici la liste des balises HTML dont vous aurez besoin pour ré
                                  est réalisé en UTF-8 --> 
 ```
 
-- les commentaires conditionnels s’indiquent entre les symboles `<!--[if lt IE …]` (marqueur de début de commentaire conditionnel) et `<![endif]-->` (marqueur de début de commentaire conditionnel). Tout ce qui se trouve entre ces deux marqueurs est ignoré par les navigateurs récents et n’est lu QUE par les navigateurs qui respectent la condition. Par exemple, ce qui se trouve dans le commenaire suivant (entre `<!--[if lt IE 9]>` et `<![endif]-->`) n’est exécuté QUE par les navigateurs IE antérieurs à IE9 : 
+- les commentaires conditionnels s’indiquent entre les symboles `<!--[if lt IE …]` (marqueur de début de commentaire conditionnel) et `<![endif]-->` (marqueur de fin de commentaire conditionnel). Tout ce qui se trouve entre ces deux marqueurs est ignoré par les navigateurs récents et n’est lu QUE par les navigateurs qui respectent la condition. Par exemple, ce qui se trouve dans le commenaire suivant (entre `<!--[if lt IE 9]>` et `<![endif]-->`) n’est exécuté QUE par les navigateurs IE antérieurs à IE9 : 
 
 ```html
 <!--[if lt IE 8]>
