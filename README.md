@@ -50,7 +50,7 @@ Voici les 7 rendus des différentes pages une fois cette première étape finie.
 
 ### Rendu de **li_dfn_info.html**
 
-![rendu li_dfn_info.html](./renduLli_dfn_info.png)
+![rendu li_dfn_info.html](./renduLi_dfn_info.png)
 
 
 ### 1. Création du fichier HTML
